@@ -93,13 +93,20 @@ def display_highscore(scorefile):
 
 
 def display_rules():
-    '''Display the rules of the game.'''
-    print('This is a Russian Roulette simulator. You press \'s\' to spin the '
-          'cylinder of an imaginary 6-shot revolver, and the press the trigger.'
-          ' There is one bullet in the cylinder. Therefore there is a 1/6 chance'
-          ' of losing after each spin, as pressing the trigger with the bullet '
-          'at the top of the cylinder would result in a fatal shot. If you die,'
-          ' it\'s game over. The goal is to do as many spins as possible, and '
-          'quit before dying. If you make a new high score, you get to enter '
-          'your player name, and your score will be saved until it is beaten. '
-          'Good luck!\n')
+    '''Display the rules of the game in a tidy way.'''
+    print('\nThis is a Russian Roulette simulator.')
+    print()
+    print('You press \'s\' to spin the cylinder of an imaginary 6-shot revolver\n'
+          'and press the trigger.')
+    print()
+    print('There is one bullet in the cylinder. Therefore there is a 1/6 \n'
+          'chance of losing after each spin, as pressing the trigger with the \n'
+          'bullet at the top of the cylinder would result in a fatal shot.')
+    print()
+    print('If you die, it\'s game over. The goal is to do as many spins as \n'
+          'possible, but quit before dying.')
+    print()
+    print('If you make a new high score, you get to enter your player name, \n'
+          'and your score will be saved until it is beaten.')
+    print()
+    print('Good luck!\n')
